@@ -1,5 +1,3 @@
-import os
-
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
@@ -8,7 +6,6 @@ from langchain_text_splitters import CharacterTextSplitter
 
 # Load environment variables from a .env file
 load_dotenv()
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 
 # Initialize the PDF loader and load the PDF document
 loader = PyPDFLoader('michelle_obama_speech.pdf')

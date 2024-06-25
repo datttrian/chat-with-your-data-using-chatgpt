@@ -1,5 +1,3 @@
-import os
-
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
@@ -8,9 +6,6 @@ from langchain_text_splitters import CharacterTextSplitter
 
 # Load environment variables from a .env file
 load_dotenv()
-
-# Retrieve the OpenAI API key from environment variables
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 
 # Define the path to the PDFs to be loaded
 pdf_paths = [

@@ -3,5 +3,8 @@
     "gitdoc.enabled": true,
     "gitdoc.autoCommitDelay": 60000,
     "gitdoc.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
+    "pylint.args": [
+        "C0114"
+    ],
     "files.insertFinalNewline": true
 }
