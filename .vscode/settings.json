@@ -9,5 +9,8 @@
     "pylint.args": [
         "C0114"
     ],
+    "mypy-type-checker.args": [
+        "var-annotated"
+    ],
     "files.insertFinalNewline": true
 }
