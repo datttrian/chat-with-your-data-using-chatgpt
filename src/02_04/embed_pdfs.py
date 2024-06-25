@@ -56,4 +56,4 @@ vectordb = FAISS.from_documents(docs, embeddings_model)
 print(f"Total vectors in FAISS index: {vectordb.index.ntotal}")
 
 # Save the FAISS index to a local directory
-vectordb.save_local("../faiss_index")
+vectordb.save_local("faiss_index")
